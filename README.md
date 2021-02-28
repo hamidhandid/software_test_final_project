@@ -21,7 +21,7 @@ If you want to know about Each Choice approach read [this](https://www.google.co
 
 ## How to Run
 1. run Appium and click on "Start Server"
-2. run Emulator with API 26
+2. run Android Emulator with API 26
 3. run below code
 ```bash
 git clone https://github.com/hamidhandid/software_test_final_project
