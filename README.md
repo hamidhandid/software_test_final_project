@@ -22,17 +22,17 @@ If you want to know about Each Choice approach read [this](https://www.google.co
 ## How to Run
 
 ```bash
-$ git clone https://github.com/hamidhandid/software_test_final_project
-$ cd software_test_final_project
-$ mkdir lib
-$ cd lib
-$ wget https://drive.google.com/file/d/1N97UshaH6-fyOgD9dz4eSX5jIZjuadXK/view?usp=sharing
-$ unzip lib.zip
-$ rm lib.zip
-$ cd ../src
-$ javac -cp ".;../lib/*" Main.java
-$ java Main
-$ cd ..
+git clone https://github.com/hamidhandid/software_test_final_project
+cd software_test_final_project
+mkdir lib
+cd lib
+wget https://drive.google.com/file/d/1N97UshaH6-fyOgD9dz4eSX5jIZjuadXK/view?usp=sharing
+unzip lib.zip
+rm lib.zip
+cd ../src
+javac -cp ".;../lib/*" Main.java
+java Main
+cd ..
 ```
 
 [issues-shield]: https://img.shields.io/github/issues/hamidhandid/software_test_final_project
