@@ -6,7 +6,7 @@ import io.appium.java_client.touch.offset.ElementOption;
 import java.util.HashMap;
 
 public class CalculatorTest extends AppTest {
-    private HashMap<String, String> calculator_element_to_key = new HashMap<>() {
+    private HashMap<String, String> calculator_element_to_key = new HashMap<String, String>() {
         {
             put("+", "op_add");
             put("-", "op_sub");
