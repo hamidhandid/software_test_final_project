@@ -5,7 +5,7 @@
 # Software test course final project - Fall 2020
 
 ## Description
-This project is a calculator tester with Appium. The calculator that is used is the main calculator of Android 8.0 .
+This project is a calculator tester with Appium. The calculator that is used in this project, is the main calculator of Android 8.0 on an emulator with API 26 .
 
 ## Requirements
 * Java 8 or above.
