@@ -20,7 +20,9 @@ If you want to know about Each Choice approach read [this](https://www.google.co
 * CalculatorTest.java: this file has functions of testing functions and equations on calculator.
 
 ## How to Run
-
+1. run Appium and click on "Start Server"
+2. run Emulator with API 26
+3. 
 ```bash
 git clone https://github.com/hamidhandid/software_test_final_project
 cd software_test_final_project
