@@ -22,13 +22,13 @@ If you want to know about Each Choice approach read [this](https://www.google.co
 ## How to Run
 1. run Appium and click on "Start Server"
 2. run Emulator with API 26
-3. 
+3. run below code
 ```bash
 git clone https://github.com/hamidhandid/software_test_final_project
 cd software_test_final_project
 mkdir lib
 cd lib
-wget https://drive.google.com/file/d/1N97UshaH6-fyOgD9dz4eSX5jIZjuadXK/view?usp=sharing
+wget https://www.dropbox.com/s/4bdumn56ob8v3k9/lib.zip?dl=1
 unzip lib.zip
 rm lib.zip
 cd ../src
