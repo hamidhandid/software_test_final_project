@@ -42,9 +42,9 @@
     </build>
 
     <scm>
-        <url>https://github.com/hamidhandid/software_test_final_project//src</url>
-        <connection>scm:git:ssh://git@github.com/hamidhandid/software_test_final_project/.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/hamidhandid/software_test_final_project/.git</developerConnection>
+        <url>https://github.com/hamidhandid/software_test_final_project/src</url>
+        <connection>scm:git:https://github.com//hamidhandid/software_test_final_project/.git</connection>
+        <developerConnection>scm:git:https://github.com//hamidhandid/software_test_final_project/.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
