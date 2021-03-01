@@ -17,7 +17,7 @@ This project is a calculator tester with Appium. The calculator that is used in 
 * Main.java: this java file makes a new CalculatorTest instance and test all operators of a calculator with each choice approach.
 If you want to know about Each Choice approach read [this](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwi03uv3rI3vAhUI8hQKHXPRBisQFjAAegQIBBAD&url=https%3A%2F%2Fwww.cs.montana.edu%2Fcourses%2Fse422%2FcurrentLectures%2FCh4.pdf&usg=AOvVaw2Jz1ldDyq6m9PEQ00zQUuS) file.
 * AppTest.java: this java file open virtual device and calculator on Android 8.0 .
-* CalculatorTest.java: this file has methods of testing functions and equations for the main calculator of Android 8.0 .
+* CalculatorTest.java: this file has methods of testing functions and equations of the main calculator of Android 8.0 .
 
 ## How to Run
 1. run Appium and click on "Start Server"
