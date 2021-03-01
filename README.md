@@ -31,8 +31,8 @@ cd lib
 wget https://www.dropbox.com/s/4bdumn56ob8v3k9/lib.zip?dl=1
 unzip lib.zip
 rm lib.zip
-cd ../src
-javac -cp ".;../lib/*" Main.java
+cd ../src/main/java
+javac -cp ".;../../../lib/*" Main.java
 java Main
 cd ..
 ```
