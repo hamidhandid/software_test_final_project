@@ -8,7 +8,7 @@
 This project is a calculator tester with Appium. The calculator that is used in this project, is the main calculator of Android 8.0 on an emulator with API 26 .
 
 ## Requirements
-* Java 8 or above.
+* Java 8 or newer versions.
 * Android Sdk
 * Appium
 * Emulator with API 26 (Android 8.0)
