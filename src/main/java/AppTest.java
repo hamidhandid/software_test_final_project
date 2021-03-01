@@ -31,7 +31,7 @@ public class AppTest {
         capabilities.setCapability("appPackage", app_package);
         capabilities.setCapability("appActivity", app_activity);
         try {
-            driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+            driver = new AndroidDriver<AndroidElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
             driver.rotate(ScreenOrientation.LANDSCAPE);
         } catch (MalformedURLException e) {
             System.err.println("Can't Open App with package: " + app_package);
