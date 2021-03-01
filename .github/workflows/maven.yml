@@ -9,15 +9,21 @@ jobs:
     steps:
       - name: Checkout project
         uses: actions/checkout@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }} 
       - name: Setup Java JDK
         uses: actions/setup-java@v1.4.2
         with:
           java-version: 8                    
           server-id: github
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }} 
       - name: Configure Git user
         run: |
           git config user.email "montazeria90@gmail.com"
           git config user.name "hamidhandid"
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_TOKEN }} 
       - name: Publish JAR
         run: mvn -B release:prepare release:perform
         env:
