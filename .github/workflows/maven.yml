@@ -21,5 +21,4 @@ jobs:
       - name: Publish JAR
         run: mvn -B release:prepare release:perform
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           access-token: ${{ secrets.GITHUB_ACCESS_TOKEN }}
